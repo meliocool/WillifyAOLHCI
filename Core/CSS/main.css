@@ -218,7 +218,7 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
 
 .texts h1 {
     color: white;
-    font-size: 96px;
+    font-size: 85px;
 }
 
 .texts span {
@@ -296,6 +296,13 @@ https://youtu.be/1CZhGDU5cWM?si=6NBA-Xjal47vZ0aj
     font-family: Poppins;
     border-radius: 10px;
     padding: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.slide-content:hover button {
+    opacity: 1;
 }
 #slider input[type=radio] {
     display: none;
@@ -504,19 +511,6 @@ https://youtu.be/1CZhGDU5cWM?si=6NBA-Xjal47vZ0aj
     color: white;
     margin-left: 0.5rem;
 }
-
-/* .image button {
-    width: 100px;
-    font-size: 1.2rem;
-    background-color: #7D7DE8;
-    color: white;
-    font-family: Poppins;
-    border-radius: 10px;
-    padding: 5px;
-    position: relative;
-    bottom: 3rem;
-    left: 25rem;
-} */
 
 .play, .details {
     width: 100px;

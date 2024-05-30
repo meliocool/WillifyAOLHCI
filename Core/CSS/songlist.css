@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    height: 2600px;
+    overflow-x: hidden;
+    background-image: url('/assets/bg-image2.png');
+    background-size: cover;
+}
+
+/* START OF NAV STUFF */
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    animation-name: slideDown;
+    animation-duration: 1s;
+}
+
+#nav-bar span {
+    padding-left: 20px;
+    padding-top: 1rem;
+    font-family: "aclonica", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: normal;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-300%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    position: relative; 
+    font-family: Poppins;
+    left: 2rem;
+}
+
+.nav img {
+    position: relative;
+    right: 2rem;
+    cursor: pointer;
+}
+
+.nav .two-dudes {
+    position: relative;
+    left: 5rem;
+}
+
+.nav input {
+    width: 400px;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 8px;
+    border-radius: 10px;
+    border: solid 1px white;
+    position: relative;
+    left: 5rem;
+    font-family: Poppins;
+}
+
+.nav .icon img {
+    width: 20px;
+    position: relative;
+    right: 1rem;
+}
+
+.nav .two-dudes:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0; 
+    left: 0;
+    bottom: -10px;
+    transition: width 300ms ease; 
+}
+
+.nav .two-dudes:hover:after {
+    width: 100%;
+}
+
+.logo {
+    font-size: 35px;
+    cursor: default;
+    color: white;
+    font-weight: 800;
+}
+
+.account-pic {
+    margin-top: 1rem;
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+/* RESPONSIVE NAVBAR 
+learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
+
+#responsive {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.hamburg {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburg-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.hamburg-icon span {
+    width: 100%;
+    height: 2px;
+    background: white;
+    transition: all 0.3 ease-in-out;
+}
+
+.links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #7D7DE8;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+    z-index: 1;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    width: 120px;
+    height: 150px;
+}
+
+.links a {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+    font-size: 12px;
+    font-family: Poppins;
+}
+
+.links img {
+    width: 60px;
+    height: 60px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links.open {
+    max-height: 300px;
+}
+
+.hamburg-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburg-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburg-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburg-icon span:first-child{
+    transform: none;
+}
+
+.hamburg-icon span:first-child{
+    opacity: 1;
+}
+
+.hamburg-icon span:first-child{
+    transform: none;
+}
+
+/* END OF NAV STUFF */
+
+/*START OF MAIN STUFF */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.aoty {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #7D7DE8, #666666);
+    width: 968px;
+    height: 253px;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+}
+
+.aoty .texts {
+    margin-left: 1rem;
+}
+
+.aoty .texts h1{
+    font-family: Poppins;
+    font-size: 64px;
+    width: 700px;
+    color: white;
+}
+
+.aoty .bar {
+  width: 562px;
+  height: 12px;
+  background: linear-gradient(to right, #FFFFFF, #7D7DE8);
+  border-radius: 10px;
+}
+
+.aoty .texts h4 {
+    font-family: Poppins;
+    font-size: 36px;
+    color: white;
+}
+
+.aoty .texts h5 {
+    font-family: Poppins;
+    font-size: 24px;
+    color: white;
+}
+
+.aoty .iu-sunbae img{
+    width: 300px;;
+    height: 360px;
+    position: relative;
+    bottom: 3.2rem;
+    border-radius: 1rem;
+    right: 3rem;
+}
+
+.popular-artists, .popular-playlist{
+    color: white;
+    font-family: Poppins;
+    margin-left: 5.7rem;
+    margin-top: 2rem;
+}
+
+.popular-artists .title-pop {
+    display: flex;
+    gap: 1rem;
+}
+
+.popular-artists h1, .popular-playlist h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.popular-artists .bar2, .popular-playlist .bar2{
+    width: 147px;
+    height: 12px;
+    background: linear-gradient(to right, #FFFFFF, #7D7DE8);
+    border-radius: 10px;
+    position: relative;
+    top: 1.1rem;
+}
+
+.popular-artists .actual-artists, .popular-playlist .actual-playlists {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.actual-artists .artist img {
+    width: 120px;
+    height: 120px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.artist h1, .playlist h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.popular-playlist .title-playlist {
+    display: flex;
+    gap: 1rem;
+}
+
+.actual-playlists .playlist img {
+    width: 171px;
+    height: 183px;
+    object-fit: cover;
+}
+

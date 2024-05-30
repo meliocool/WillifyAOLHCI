@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willify</title>
+    <link href ="../CSS/songlist.css" rel="stylesheet">
+    <link href="../CSS/mediaqueries.css" rel="stylesheet">
+</head>
+<body>
+    <section id = "front">
+        <nav id = "nav-bar" class = "hiddennav">
+            <div class = "logo">
+                <span>Willify</span>
+            </div>
+            <div>
+                <ul class = "nav">
+                    <li><a class = "two-dudes"href = "/Core/HTML/main.html">Homepage</a></li>
+                    <li><a class = "two-dudes" href= "/Core/HTML/aboutus.html">About us</a></li>
+                    <input type = "text" placeholder="Search for songs...">
+                    <label class = "icon">
+                        <img src = "/assets/magnifying-glass-svgrepo-com.svg">
+                    </label>
+                    <li><a href = "#acc-logo"><img src = "/assets/Liz.jpg" class = "account-pic"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id = "responsive">
+            <div class = "logo">Willify</div>
+            <div class = "hamburg">
+                <div class = "hamburg-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class = "links">
+                    <li><a href = "#acc-logo"><img src = "/assets/Liz.jpg" class = "account-pic"></a></li>
+                    <li><a href = "/Core/HTML/main.html" onclick="toggleMenu()">Homepage</a></li>
+                    <li><a href= "/Core/HTML/aboutus.html" onclick="toggleMenu()">About us</a></li>
+                </div>
+            </div>
+        </nav>
+    <section id = "main-boys">
+        <div class = "container">
+            <div class = "left-side">
+                <div class = "aoty">
+                    <div class = "texts">
+                        <h1>ARTIST OF THE YEAR</h1>
+                        <div class = "bar"></div>
+                        <h4>LEE JI-EUN (IU)</h4>
+                        <h5>More about her on Willify</h5>
+                    </div>
+                    <div class = "iu-sunbae">
+                        <img src = "/assets/IUyes-removebg-preview.png">
+                    </div>
+                </div>
+                <div class = "popular-artists">
+                    <div class = title-pop>
+                        <h1>Popular Artists</h1> <div class = "bar2"></div>
+                    </div>
+                    <div class = "actual-artists">
+                        <div class="artist">
+                            <img src = "/assets/weeknd.jpg">
+                            <h1>The Weeknd</h1>
+                        </div>
+                        <div class="artist">
+                            <img src = "/assets/kendrick.jpg">
+                            <h1>Kendrick Lamar</h1>
+                        </div>
+                        <div class="artist">
+                            <img src = "/assets/ive.jpg">
+                            <h1>IVE</h1>
+                        </div>
+                        <div class="artist">
+                            <img src = "/assets/lana.jpg">
+                            <h1>Lana Del Rey</h1>
+                        </div>
+                        <div class="artist">
+                            <img src = "/assets/utopia.png">
+                            <h1>Travis Scott</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class = "popular-playlist">
+                    <div class = title-playlist>
+                        <h1>Playlists by the community</h1> <div class = "bar2"></div>
+                    </div>
+                    <div class = "actual-playlists">
+                        <div class="playlist">
+                            <img src = "/assets/nj.jpeg">
+                            <h1>New Jeans Mix</h1>
+                        </div>
+                        <div class="playlist">
+                            <img src = "/assets/kocela.jpg">
+                            <h1>Coachella</h1>
+                        </div>
+                        <div class="playlist">
+                            <img src = "/assets/kanekiken.jpg">
+                            <h1>Wibu stres</h1>
+                        </div>
+                        <div class="playlist">
+                            <img src = "/assets/dababy.webp">
+                            <h1>For Da Opps</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "right-side">
+                <div class = "top-tracks">
+                    <h1>Top Tracks</h1>
+                    <div class = "containerTracks">
+                        <div class = "songs">
+                            <div class = "songDetails">
+                                <img src = "">
+                                <div class = "artist-info">
+                                    <h1>Not Like Us</h1>
+                                    <h4>Kendrick Lamar</h4>
+                                </div>
+                                <h2>4:34</h2>
+                            </div>
+                            <div class = "songDetails">
+                                <img src = "">
+                                <div class = "artist-info">
+                                    <h1>Fortnight</h1>
+                                    <h4>Taylor Swift</h4>
+                                </div>
+                                <h2>3:48</h2>
+                            </div>
+                            <div class = "songDetails">
+                                <img src = "">
+                                <div class = "artist-info">
+                                    <h1>Maestro</h1>
+                                    <h4>SEVENTEEN</h4>
+                                </div>
+                                <h2>3:18</h2>
+                            </div>
+                            <div class = "songDetails">
+                                <img src = "">
+                                <div class = "artist-info">
+                                    <h1>Abyss</h1>
+                                    <h4>YUNGBLUD</h4>
+                                </div>
+                                <h2>2:03</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src = "/Core/JS/main.js"></script>
+</body>
+</html>
