@@ -16,7 +16,7 @@ html ::-webkit-scrollbar{
 }
 
 body {
-    height: 2600px;
+    height: 3036px;
     overflow-x: hidden;
     background-image: url('/assets/bg-image2.png');
     background-size: cover;
@@ -94,6 +94,11 @@ body {
     position: relative;
     left: 5rem;
     font-family: Poppins;
+}
+
+.nav .search-box::placeholder {
+    color:#7D7DE8;
+    opacity: 0.5;
 }
 
 .nav .icon img {
