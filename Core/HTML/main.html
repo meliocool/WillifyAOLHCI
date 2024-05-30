@@ -3,9 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Willify</title>
+    <link href="../CSS/main.css" rel="stylesheet">
+    <link href="../CSS/mediaqueries.css" rel="stylesheet">
 </head>
 <body>
-    
+    <section id = "front">
+        <nav id = "nav-bar" class = "hiddennav">
+            <div class = "logo">
+                <span>Willify</span>
+            </div>
+            <div>
+                <ul class = "nav">
+                    <li><a href = "#music-catalog">Music Catalog</a></li>
+                    <li><a href= "#about-us">About us</a></li>
+                    <li><a href = "#acc-logo"><img src = "/assets/Liz.jpg" class = "account-pic"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id = "responsive">
+            <div class = "logo">Willify</div>
+            <div class = "hamburg">
+                <div class = "hamburg-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class = "links">
+                    <li><a href = "#acc-logo"><img src = "/assets/Liz.jpg" class = "account-pic"></a></li>
+                    <li><a href = "#music-catalog" onclick="toggleMenu()">Music Catalog</a></li>
+                    <li><a href= "#about-us" onclick="toggleMenu()">About us</a></li>
+                </div>
+            </div>
+        </nav>
+        <div class ="hero-page">
+            <div class = "container">
+                <div class ="texts">
+                    <h1><span>LIVE</span> UP TO <br>YOUR <span>TUNES</span></h1>
+                    <h4><span>Willify</span> is a website where you can <span>stream</span> or <span>buy</span> your desired music
+                    from your favorite artists</h4>
+                </div>
+                <div class = "hero-image">
+                    <img src = "/assets/HERO.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "best-selling">
+        <div class ="title">
+            <h1><span>Best</span> selling music</h1>
+            <h4>View the highest <span>rated</span> and top <span>charting</span> music <br>our platform has to offer</h4>
+        </div>
+        //IMAGE SLIDER OR CAROUSEL//
+        //LEARNED FROM https://youtu.be/1CZhGDU5cWM?si=6NBA-Xjal47vZ0aj//
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                           <h2>THE<span> WEEKND</span></h2>
+                           <h3>- BLINDING LIGHTS -</h3>
+                           <button>Details</button>
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                           <h2>TAYLOR<span> SWIFT</span></h2>
+                           <h3>- FORTNIGHT -</h3>
+                           <button>Details</button>
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                           <h2>HARRY<span> STYLES</span></h2>
+                           <h3>- AS IT WAS -</h3>
+                           <button>Details</button>
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                           <h2><span>POST</span> MALONE</h2>
+                           <h3>- CIRCLES -</h3>
+                           <button>Details</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
+    </section>
+    <section id = "recommended">
+        <div class ="recommendedTitle">
+            <h1><span>Recommended</span> music</h1>
+            <h4>View the absolute <span>bangers</span> picked by our active <span>community</span><br>based of your music taste</h4>
+        </div>
+        <div class = "containerSongs">
+            <div class = "row-1">
+                <div class = "song-Left1">
+                    <div class = "image">
+                        <img src = "/assets/supernova-aespa.png">
+                        <h1>SUPERNOVA - aespa</h1>
+                        <button class = "play">Play</button>
+                        <button class = "details">Details</button>
+                    </div>
+                    <div class = "texts">
+                        <p>Latest release from the korean girl group
+                            aespa as the title track for their first full album
+                            packed with uplifting beat and unique style
+                        </p>
+                    </div>
+                </div>
+                <div class = "song-Right1">
+                    <div class = "image">
+                        <img src = "/assets/heyaive.jpg">
+                        <h1>HEYA - IVE</h1>
+                        <button class = "play">Play</button>
+                        <button class = "details">Details</button>
+                    </div>
+                    <div class = "texts">
+                        <p>Latest release from the korean girl group
+                            IVE as the title track for their 2nd extended play
+                            featuring a beat change and powerful vocals
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class = "row-1">
+                <div class = "song-Left1">
+                    <div class = "image">
+                        <img src = "/assets/maestro - seventeen.jpg">
+                        <h1>Maestro - SEVENTEEN</h1>
+                        <button class = "play">Play</button>
+                        <button class = "details">Details</button>
+                    </div>
+                    <div class = "texts">
+                        <p>Latest comeback of the famous boy group by Pledis Entertainment, 
+                            Maestro is filled with fast beat dance break and eargasm vocals
+                        </p>
+                    </div>
+                </div>
+                <div class = "song-Right1">
+                    <div class = "image">
+                        <img src = "/assets/abyss-yungblud.jpg">
+                        <h1>Abyss - YUNGBLUD</h1>
+                        <button class = "play">Play</button>
+                        <button class = "details">Details</button>
+                    </div>
+                    <div class = "texts">
+                        <p>Served as the opening for the anime 
+                            Kaijuu No.8, Abyss by YUNGBLUD features 
+                            crazy good vocals in a concise duration
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src = "/Core/JS/main.js"></script>
 </body>
 </html>

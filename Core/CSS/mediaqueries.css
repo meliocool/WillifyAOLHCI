@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px){
+    #nav-bar {
+        display: none;
+    }
+    #responsive {
+        display: flex;
+    }
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+}
