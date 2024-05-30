@@ -236,6 +236,7 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
 .container {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .aoty {
@@ -244,7 +245,6 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     background: linear-gradient(to right, #7D7DE8, #666666);
     width: 968px;
     height: 253px;
-    margin-left: 6rem;
     margin-top: 4rem;
     border-radius: 1rem;
 }
@@ -291,7 +291,6 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
 .popular-artists, .popular-playlist{
     color: white;
     font-family: Poppins;
-    margin-left: 5.7rem;
     margin-top: 2rem;
 }
 
@@ -343,3 +342,153 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     object-fit: cover;
 }
 
+.top-tracks {
+    background: linear-gradient(to bottom, #FFFFFF, #D0D0F7, #ABABF3);
+    border-radius: 30px;
+    width: 336px;
+    height: 879px;
+    padding: 2rem;
+    padding-top: 1rem;
+    font-family: Poppins;
+}
+
+.top-tracks h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.songDetails {
+    display: flex;
+    align-items: center;
+}
+
+.info-and-duration {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.songDetails h2 {
+    font-size: 16px;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.songDetails h3 {
+    color: gray;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+.songDetails h4 {
+    font-size: 14px;
+    margin-left: 0.5rem;
+    color: #7D7DE8
+}
+
+.songDetails img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.containerSongs {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    margin-top: 1rem;
+}
+
+.row-1 {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+.song-Left1, .song-Right1 {
+    background-color: white;
+    width: 603px;
+    height: 338px;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.song-Left1:hover, .song-Right1:hover {
+    transform: scale(1.05);
+}
+
+.image img{
+    width: 603px;
+    height: 199px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.image {
+    position: relative;
+    width: 603px;
+    height: 199px;
+}
+
+.image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(4,0,30,0.7), rgba(4,9,30,0.7));
+    pointer-events: none; /* Ensures the overlay doesn't block interactions with the image */
+}
+
+.image h1 {
+    font-family: Poppins;
+    position: absolute;
+    bottom: 0.5rem;
+    color: white;
+    margin-left: 0.5rem;
+    font-size: 32px;
+}
+
+.play, .details {
+    width: 100px;
+    font-size: 1.2rem;
+    background-color: #7D7DE8;
+    color: white;
+    font-family: Poppins;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    bottom: 12rem;
+    left: 73%;
+    transform: translateX(-50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.song-Left1:hover .play, .song-Right1:hover .play, .song-Left1:hover .details, .song-Right1:hover .details {
+    opacity: 1; 
+}
+
+.texts {
+    width: 560px;
+    margin: 1rem;
+}
+
+.texts p {
+    font-size: 23px;
+    text-align: justify;
+    font-family: Poppins;
+}
