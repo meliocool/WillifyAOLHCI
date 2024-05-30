@@ -271,6 +271,7 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     font-family: Poppins;
     font-size: 36px;
     color: white;
+    margin-top: 1rem;
 }
 
 .aoty .texts h5 {
@@ -285,7 +286,7 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     position: relative;
     bottom: 3.2rem;
     border-radius: 1rem;
-    right: 3rem;
+    left: 4.7rem;
 }
 
 .popular-artists, .popular-playlist{
@@ -302,6 +303,7 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
 .popular-artists h1, .popular-playlist h1 {
     font-size: 32px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .popular-artists .bar2, .popular-playlist .bar2{
@@ -323,7 +325,8 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     width: 120px;
     height: 120px; 
     border-radius: 50%;
-    object-fit: cover; 
+    object-fit: cover;
+    cursor: pointer; 
 }
 
 .artist h1, .playlist h1 {
@@ -340,6 +343,7 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     width: 171px;
     height: 183px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .top-tracks {
@@ -380,6 +384,7 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     font-size: 16px;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
+    cursor: pointer;
 }
 
 .songDetails h3 {
@@ -391,13 +396,15 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
 .songDetails h4 {
     font-size: 14px;
     margin-left: 0.5rem;
-    color: #7D7DE8
+    color: #7D7DE8;
+    cursor: pointer;
 }
 
 .songDetails img {
     width: 80px;
     height: 80px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .containerSongs {
