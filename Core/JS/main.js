@@ -4,6 +4,3 @@ function toggleMenu(){
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
-function redirectToNJ() {
-    window.location.href = '../Playlists/NJMix/NJ.html';
-}

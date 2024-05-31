@@ -59,23 +59,23 @@
                         <h1>Popular Artists</h1> <div class = "bar2"></div>
                     </div>
                     <div class = "actual-artists">
-                        <div class="artist">
+                        <div class="artist" onclick="redirectToWeeknd()">
                             <img src = "/assets/weeknd.jpg">
                             <h1>The Weeknd</h1>
                         </div>
-                        <div class="artist">
+                        <div class="artist" onclick="redirectToKendrick()">
                             <img src = "/assets/kendrick.jpg">
                             <h1>Kendrick Lamar</h1>
                         </div>
-                        <div class="artist">
+                        <div class="artist" onclick="redirectToIVE()">
                             <img src = "/assets/ive.jpg">
                             <h1>IVE</h1>
                         </div>
-                        <div class="artist">
+                        <div class="artist" onclick="redirectLana()">
                             <img src = "/assets/lana.jpg">
                             <h1>Lana Del Rey</h1>
                         </div>
-                        <div class="artist">
+                        <div class="artist" onclick="redirectTravis()">
                             <img src = "/assets/utopia.png">
                             <h1>Travis Scott</h1>
                         </div>
@@ -86,19 +86,19 @@
                         <h1>Playlists by the community</h1> <div class = "bar2"></div>
                     </div>
                     <div class = "actual-playlists">
-                        <div class="playlist">
-                            <img src = "/assets/nj.jpeg" onclick="redirectToNJ()">
+                        <div class="playlist" onclick="redirectToNJ()">
+                            <img src = "/assets/nj.jpeg">
                             <h1>New Jeans Mix</h1>
                         </div>
-                        <div class="playlist">
+                        <div class="playlist" onclick="redirectToCoachella()">
                             <img src = "/assets/kocela.jpg">
                             <h1>Coachella</h1>
                         </div>
-                        <div class="playlist">
+                        <div class="playlist" onclick="redirectToWibu()">
                             <img src = "/assets/kanekiken.jpg">
                             <h1>Wibu stres</h1>
                         </div>
-                        <div class="playlist">
+                        <div class="playlist" onclick="redirectToDaOpps()">
                             <img src = "/assets/dababy.webp">
                             <h1>For Da Opps</h1>
                         </div>
@@ -313,7 +313,8 @@
             </div>
         </div>
     </section>
-    <script src = "/Core/JS/main.js"></script>
+    <script src = "../Core/JS/main.js"></script>
     <script src = "/Playlists/playlist.js"></script>
+    <script src = "/Artists/artists.js"></script>
 </body>
 </html>

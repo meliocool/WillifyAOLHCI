@@ -53,6 +53,9 @@ body {
     text-align: center;
     flex: 1;
 }
+.wrapper {
+    margin: 5rem;
+}
 .wrapper .titlebro {
     padding: 1rem;
     width: 450px;
