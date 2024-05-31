@@ -4,10 +4,10 @@ function redirectToWeeknd() {
 function redirectToKendrick() {
     window.location.href = '../../Artists/KendrickLamar/Kendrick.html';
 }
-function redirectLana() {
+function redirectToIVE() {
     window.location.href = '../../Artists/IVE/IVE.html';
 }
-function redirectToIVE() {
+function redirectLana() {
     window.location.href = '../../Artists/LanaDelRey/Lana.html';
 }
 function redirectTravis() {

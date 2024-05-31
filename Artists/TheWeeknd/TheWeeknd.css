@@ -141,7 +141,7 @@ body {
 
 .left img {
     width: 277px;
-    height: 281px;
+    height: 295px;
     object-fit: cover;
 }
 
@@ -163,6 +163,8 @@ body {
     font-size: 18px;
     margin: 0.5rem 0;
     color: grey;
+    max-width: 700px;
+    text-align: justify;
 }
 
 .right .bar {
