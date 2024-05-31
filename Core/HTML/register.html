@@ -16,40 +16,48 @@
             </div>
             <div class = "register-window">
                 <h1>Register</h1>
-                <form action = "#" class = "form">
+                <form class = "form">
                     <div class = "input-box">
                         <label>Email</label>
-                        <input type = "email">
+                        <input id = "email" type = "email">
                     </div>
                     <div class = "input-box">
                         <label>Username</label>
-                        <input type = "text">
+                        <input id = "username" type = "text">
                     </div>
                     <div class = "input-box">
                         <label>Password</label>
-                        <input type = "password">
+                        <input id = "password" type = "password">
                     </div>
                     <div class = "col">
-                        <div class = "gender-box">
-                            <h3>Gender</h3>
-                            <div class = "gender-option">
-                                <div class = "gender">
-                                    <input type = "radio" id = "check-male" name = "gender"/>
-                                    <label for = "check-male">Male</label>
-                                </div>
-                                <div class = "gender">
-                                    <input type = "radio" id = "check-female" name = "gender"/>
-                                    <label for = "check-female">Female</label>
-                                </div>
-                                <div class = "gender">
-                                    <input type = "radio" id = "check-other" name = "gender"/>
-                                    <label for = "check-other">Other</label>
-                                </div>
-                            </div>
+                        <div class = "input-box">
+                            <label>Confirm Password</label>
+                            <input id = "confirm-password" type = "password">
+                        </div>
+                        <div id = "age-box">
+                            <label>Age</label>
+                            <input type = "number" id = "age" min = "0" max = "100">
                         </div>
                         <div class = "input-box">
-                            <label>Age</label>
-                            <input type = "number" min = "0" max = "100">
+                            <label>Favorite Genre</label>
+                            <input type = "text" id = "genre">
+                        </div>
+                    </div>
+                    <div class = "gender-box">
+                        <h3>Gender</h3>
+                        <div class = "gender-option">
+                            <div class = "gender">
+                                <input type = "radio" id = "check-male" name = "gender"/>
+                                <label for = "check-male" id = "male">Male</label>
+                            </div>
+                            <div class = "gender">
+                                <input type = "radio" id = "check-female" name = "gender"/>
+                                <label for = "check-female" id = "female">Female</label>
+                            </div>
+                            <div class = "gender">
+                                <input type = "radio" id = "check-other" name = "gender"/>
+                                <label for = "check-other" id = "other">Other</label>
+                            </div>
                         </div>
                     </div>
                     <h3>Upload a Profile Picture</h3>
@@ -57,13 +65,13 @@
                         <label for="input-file" id = "drop-area">
                             <input type="file" id = "input-file" hidden>
                             <img src = "/assets/image-plus-svgrepo-com.svg">
-                            <p>Click to upload an image</p>
+                            <p>Click to upload an image (Max 25 MB)</p>
                         </label>
                     </div>
-                    <button type = "button" class = "create-acc-btn" onclick="window.location.href='/Core/HTML/main.html'">Create Account</button>
+                    <button type = "button" class = "create-acc-btn" onclick="validateAndRedirect()">Create Account</button>
                 </form>
             </div>
-        </div>
+        </div>  
     </section>
     <script src = "/Core/JS/Validation.js"></script>
 </body>

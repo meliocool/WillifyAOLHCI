@@ -96,6 +96,20 @@ body {
     margin-top: 3px;
     font-size: 18px;
 }
+#age-box {
+    margin-top: 10px;
+    margin-right: 2px;
+}
+#age-box input {
+    position: relative;
+    height: 50px;
+    width: 110%;
+    border: 3px solid #7D7DE8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 18px;
+}
 .col {
     display: flex;
     justify-content: space-between;
