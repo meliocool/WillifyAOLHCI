@@ -72,7 +72,7 @@ body {
     font-family: Poppins;
 }
 
-.nav a:after {
+.nav .two-dudes:after {
     content: "";
     position: absolute;
     background-color: white;
@@ -83,7 +83,7 @@ body {
     transition: width 300ms ease; 
 }
 
-.nav a:hover:after {
+.nav .two-dudes:hover:after {
     width: 100%;
 }
 

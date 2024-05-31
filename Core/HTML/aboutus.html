@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willify</title>
+    <link href = "/Core/CSS/aboutus.css" rel="stylesheet">
+    <link href = "/Core/CSS/mediaqueries.css" rel ="stylesheet">
+</head>
+<body>
+    <section id = "front">
+        <nav id = "nav-bar" class = "hiddennav">
+            <div class = "logo">
+                <span>Willify</span>
+            </div>
+            <div>
+                <ul class = "nav">
+                    <li><a class = "two-dudes" href = "/Core/HTML/main.html">Homepage</a></li>
+                    <li><a class = "two-dudes" href= "/Core/HTML/songlist.html">Music Catalog</a></li>
+                    <li><a href = "#acc-logo"><img src = "/assets/Liz.jpg" class = "account-pic"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id = "responsive">
+            <div class = "logo">Willify</div>
+            <div class = "hamburg">
+                <div class = "hamburg-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class = "links">
+                    <li><a href = "#acc-logo"><img src = "/assets/Liz.jpg" class = "account-pic"></a></li>
+                    <li><a href = "/Core/HTML/main.html" onclick="toggleMenu()">Homepage</a></li>
+                    <li><a href= "/Core/HTML/songlist.html" onclick="toggleMenu()">Music Catalog</a></li>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id = "about-us">
+        <div class = "container">
+            <div class = "left">
+                <h1><span>About</span> us</h1>
+                <div class = "bar3"></div>
+                <h3>Founded in 2006 by a dedicated engineer and musician Miriel Von Everec with one goal, 
+                    to lift people’s spirit by listening to music made by talented artist on a User-centered interface. 
+                    Willify has grown into a large Software-based music streaming platform 
+                    delivering studio quality audio, vast library, at an affordable price. 
+                </h3>
+                <button class = "findoutBTN">Find out more</button>
+            </div>
+            <div class = "right">
+                <img src = "/assets/jewaypi-removebg-preview.png">
+                <p>Foto hanya pemanis, foto asli J.Y. Park</p>
+            </div>
+        </div>
+        <div class = "container2">
+            <div class = "left">
+                <img src = "/assets/jewaypipartypeople.jpg">
+                <p>Hanya ilustrasi, foto asli J.Y. Park in Suzy Party People</p>
+            </div>
+            <div class = "right">
+                <h1><span>Early</span> Days</h1>
+                <div class = "bar3"></div>
+                <h3>In his early days as a Musician and A Engineer
+                    Miriel Von Everec used to go to talkshows and
+                    Party Places to increase his networking and
+                    find potential Investors or at the very least a
+                    few colleagues that shares the same vision and dreams he has.
+                </h3>
+            </div>
+        </div>
+        <div class = "container3">
+            <div class = "left">
+                <h1><span>Willify</span> era</h1>
+                <div class = "bar3"></div>
+                <h3>Finally in 2006, Miriel Von Everec gains recognition and manages to create Willify, 
+                    a digital audio service that is now available in multiple countries and he became one 
+                    of the most iconic entrepreneur and philantropist in the music industry.
+                </h3>
+            </div>
+            <div class = "right">
+                <img class = "mnet" src = "/assets/jewaypimnet.jpg">
+                <p>Foto hanya pemanis, foto asli J.Y. Park</p>
+            </div>
+        </div>
+    </section>
+    <script src = "/Core/JS/main.js"></script>
+</body>
+</html>

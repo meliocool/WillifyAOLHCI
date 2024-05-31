@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url('/assets/bg-image2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Poppins;
+}
+
+/* START OF REGISTER PAGE */
+
+#register-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0 20px;
+}
+
+#register-page .titlebro{
+    font-size: 48px;
+    color: black;
+}
+
+.wrapper {
+    background-color: white;
+    display: flex;
+    border-radius: 40px;
+    justify-content: space-between;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+.wrapper .titlebro {
+    padding: 1rem;
+    width: 450px;
+}
+
+.titlebro span {
+    color: #7D7DE8;
+}
+
+.register-window {
+    background: url('/assets/bg-register.png');
+    max-width: 600px;
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    color: white;
+    border-radius: 40px;
+}
+
+.register-window .form {
+    margin-top: 1rem;
+}
+
+.form .input-box {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form .input-box label {
+    background-origin: black;
+    margin-bottom: 2rem;
+}
+
+.form .input-box input {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border: 3px solid #7D7DE8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 18px;
+}
+.col {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+.form .gender-box {
+    margin-top: 10px;
+}
+.form .gender-box h3 {
+    font-weight: 300;
+    font-size: 18px;
+}
+.form .gender-option {
+    display: flex;
+    column-gap: 15px;
+    text-align: center;
+}
+
+.form h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.pfp {
+    margin-top: 5px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px #7D7DE8;
+    background-color: aliceblue;
+}
+
+.pfp img {
+    width: 100px;
+    height: 100px;
+}
+
+#drop-area {
+    width: 100%;
+    cursor: pointer;
+}
+
+.form .create-acc-btn {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: #7D7DE8;
+    font-family: Poppins;
+    color: white;
+    cursor: pointer;
+}
+
+.create-acc-btn:hover {
+    background-color: white;
+    color: #7D7DE8;
+}
+
+
