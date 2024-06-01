@@ -16,7 +16,7 @@ html ::-webkit-scrollbar{
 }
 
 body {
-    height: 83vh;
+    height: 100vh;
     overflow-x: hidden;
     background: linear-gradient(to bottom,#33302c, #9BADAD, #FEFEFE);
     background-size: cover;
