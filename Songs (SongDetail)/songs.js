@@ -1,3 +1,9 @@
+function redirectToHello(){
+    window.location.href = '../../Songs (SongDetail)/Hello/hello.html';
+}
+function redirectToBlindingLights(){
+    window.location.href = '../../Songs (SongDetail)/BlindingLights/blinding.html';
+}
 function redirectToHEYA(){
     window.location.href = '../../Songs (SongDetail)/Heya/heya.html';
 }

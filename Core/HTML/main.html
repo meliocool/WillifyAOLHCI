@@ -38,7 +38,7 @@
         </nav>
         <div class ="hero-page">
             <div class = "container">
-                <div class ="texts">
+                <div class ="texts" id = "hero-texts">
                     <h1><span>LIVE</span> UP TO YOUR<span> TUNES</span></h1>
                     <h4><span>Willify</span> is a website where you can <span>stream</span> or <span>buy</span> your desired music
                     from your favorite artists</h4>
@@ -54,60 +54,36 @@
             <h1><span>Best</span> selling music</h1>
             <h4>View the highest <span>rated</span> and top <span>charting</span> music <br>our platform has to offer</h4>
         </div>
-        //IMAGE SLIDER OR CAROUSEL//
-        //LEARNED FROM https://youtu.be/1CZhGDU5cWM?si=6NBA-Xjal47vZ0aj//
-        <div id="slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-            <input type="radio" name="slider" id="slide4">
-            <div id="slides">
-               <div id="overflow">
-                  <div class="inner">
-                     <div class="slide slide_1">
-                        <div class="slide-content">
-                           <h2>THE<span> WEEKND</span></h2>
-                           <h3>- BLINDING LIGHTS -</h3>
-                           <button>Details</button>
-                        </div>
-                     </div>
-                     <div class="slide slide_2">
-                        <div class="slide-content">
-                           <h2>TAYLOR<span> SWIFT</span></h2>
-                           <h3>- FORTNIGHT -</h3>
-                           <button>Details</button>
-                        </div>
-                     </div>
-                     <div class="slide slide_3">
-                        <div class="slide-content">
-                           <h2>HARRY<span> STYLES</span></h2>
-                           <h3>- AS IT WAS -</h3>
-                           <button>Details</button>
-                        </div>
-                     </div>
-                     <div class="slide slide_4">
-                        <div class="slide-content">
-                           <h2><span>POST</span> MALONE</h2>
-                           <h3>- CIRCLES -</h3>
-                           <button>Details</button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+        <div class = "containerSongs">
+            <div class = "row-1">
+                <div class = "song-Left1">
+                    <div class = "image">
+                        <img src = "/assets/weeknd2.png">
+                        <h1>Blinding Lights - The Weeknd - #1 Worldwide</h1>
+                        <button class = "play" onclick="redirectToBlindingLights()">Play</button>
+                        <button class = "details">Details</button>
+                    </div>
+                    <div class = "texts">
+                        <p>One of the best song Abel has ever released, loved by many charted number 1
+                            in every platform including Willify
+                        </p>
+                    </div>
+                </div>
+                <div class = "song-Right1">
+                    <div class = "image">
+                        <img src = "/assets/hello.jpeg">
+                        <h1>Hello - Adele - #2 Worldwide</h1>
+                        <button class = "play" onclick="redirectToHello()">Play</button>
+                        <button class = "details">Details</button>
+                    </div>
+                    <div class = "texts">
+                        <p>Who doesn't know the iconic verse "Hello.."? Brought by
+                            Adele, who is globally known to have one of the most beautiful voice ever
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div id="controls">
-               <label for="slide1"></label>
-               <label for="slide2"></label>
-               <label for="slide3"></label>
-               <label for="slide4"></label>
-            </div>
-            <div id="bullets">
-               <label for="slide1"></label>
-               <label for="slide2"></label>
-               <label for="slide3"></label>
-               <label for="slide4"></label>
-            </div>
-         </div>
+        </div>
     </section>
     <section id = "recommended">
         <div class ="recommendedTitle">

@@ -82,8 +82,8 @@ body {
 .song {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center align items */
-    position: relative; /* Add position relative for positioning children */
+    align-items: center; 
+    position: relative; 
 }
 
 .image-container {
@@ -94,7 +94,7 @@ body {
     width: 400px;
     border-radius: 26px;
     filter: brightness(50%) contrast(70%);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add drop shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
 
 .overlay {
@@ -115,4 +115,100 @@ body {
 .overlay audio {
     width: 100%; 
     border-radius: 0; 
+}
+
+@media (max-width: 425px){
+    #nav-bar {
+        left: 20px;
+    }
+    #nav-bar .arrow {
+        width: 18px;
+        margin-right: 10px;
+    }
+    #songPlayer .lyrics {
+        max-height: 200px;
+        overflow-y: auto; 
+        padding-left: 20px;
+    }
+    .logo {
+        font-size: 12px;
+    }
+    .image-container {
+        position: relative;
+        margin-left: 1rem;
+    }
+    .image-container img {
+        width: 200px;
+        border-radius: 25px;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0; 
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+    }
+    .overlay h1 {
+        font-family: 'Poppins', sans-serif; 
+        color: white;
+        font-size: 14px;
+        position: relative;
+        top: 3.5rem;
+    }
+    .overlay audio {
+        width: 200px; 
+        border-radius: 0; 
+        position: relative;
+        top: 3.5rem;
+    }
+}
+
+@media (max-width: 320px){
+    #nav-bar {
+        left: 20px;
+    }
+    #nav-bar .arrow {
+        width: 18px;
+        margin-right: 10px;
+    }
+    #songPlayer .lyrics {
+        max-height: 150px;
+        overflow-y: auto; 
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    #songPlayer .lyrics p {
+        font-size: 14px;
+    }
+    .logo {
+        font-size: 12px;
+    }
+    .image-container {
+        position: relative;
+        margin-left: 1rem;
+    }
+    .image-container img {
+        width: 150px;
+        border-radius: 25px;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0; 
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+    }
+    .overlay h1 {
+        font-family: 'Poppins', sans-serif; 
+        color: white;
+        font-size: 10px;
+        position: relative;
+        top: 3.5rem;
+    }
+    .overlay audio {
+        width: 150px; 
+        border-radius: 0; 
+        position: relative;
+        top: 3.5rem;
+    }
 }
