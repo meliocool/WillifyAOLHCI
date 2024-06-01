@@ -208,23 +208,23 @@ body {
 }
 
 .container1 {
-    background: linear-gradient(to right, #BFAFB3, #914654);
+    background: linear-gradient(to right, #06B6f2, #eefb15);
 }
 
 .container2 {
-    background: linear-gradient(to right, #181818, #6a6a6a);
+    background: linear-gradient(to right, #F2F2F2, #2A2A2A);
 }
 
 .container3 {
-    background: linear-gradient(to right, #FEFEFE, #36467B, #5A0D20);
+    background: linear-gradient(to right, #36ff13, #010102);
 }
 
 .container4 {
-    background: linear-gradient(to right, #f76a56, #001A2A);
+    background: linear-gradient(to right, #4091e8, #E3E3E3);
 }
 
 .container5 {
-    background: linear-gradient(to right, #f76a56, #001A2A);
+    background: linear-gradient(to right, #891d59, #DE173F);
 }
 
 .song {

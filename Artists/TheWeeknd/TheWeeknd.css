@@ -206,23 +206,23 @@ body {
 }
 
 .container1 {
-    background: linear-gradient(to right, #BFAFB3, #914654);
+    background: linear-gradient(to right, #D10541, #100819);
 }
 
 .container2 {
-    background: linear-gradient(to right, #181818, #6a6a6a);
+    background: linear-gradient(to right, #a96b3b, #09060d);
 }
 
 .container3 {
-    background: linear-gradient(to right, #FEFEFE, #36467B, #5A0D20);
+    background: linear-gradient(to right, #D10541, #100819);
 }
 
 .container4 {
-    background: linear-gradient(to right, #f76a56, #001A2A);
+    background: linear-gradient(to right, #a96b3b, #09060d);
 }
 
 .container5 {
-    background: linear-gradient(to right, #f76a56, #001A2A);
+    background: linear-gradient(to right, #BFBCB8, #141615);
 }
 
 .song {
@@ -230,10 +230,6 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 10px;
-}
-
-.title-and-artist span {
-    color:#7D7DE8;
 }
 
 .song img {
