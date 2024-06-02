@@ -311,7 +311,7 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     cursor: pointer;
 }
 
-.popular-artists .bar2, .popular-playlist .bar2{
+.popular-artists .bar2, .popular-playlist .bar2, .top-picks .bar3{
     width: 147px;
     height: 12px;
     background: linear-gradient(to right, #FFFFFF, #7D7DE8);
@@ -412,6 +412,23 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     cursor: pointer;
 }
 
+#main-boys2 .top-picks h1{
+    color: white;
+    margin: 2rem;
+    margin-left: 3rem;
+    font-size: 32px;
+    font-family: Poppins;
+}
+
+.top-picks {
+    display: flex;
+}
+
+.top-picks .bar3 {
+    position: relative;
+    top: 3rem;
+}
+
 .containerSongs {
     display: flex;
     flex-direction: column;
@@ -503,4 +520,426 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     font-size: 23px;
     text-align: justify;
     font-family: Poppins;
+}
+
+@media (max-width: 768px){
+    html {
+        overflow-x: hidden;
+    }
+    .aoty {
+        width: 500px;
+        height: 153px;
+        margin-top: 4rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .aoty .texts {
+        margin-left: 1rem;
+    }
+    
+    .aoty .texts h1{
+        font-size: 32px;
+    }
+    
+    .aoty .bar {
+        width: 270px;
+        height: 6px;
+    }
+    
+    .aoty .texts h4 {
+        font-size: 16px;
+        color: white;
+        margin-top: 1rem;
+    }
+    
+    .aoty .texts h5 {
+        font-size: 14px;
+    }
+    
+    .aoty .iu-sunbae img{
+        width: 165px;;
+        height: 200px;
+        position: relative;
+        bottom: 1.3rem;
+        left: -16rem;
+    }
+
+    .popular-artists, .popular-playlist{
+        margin-top: 3rem;
+    }
+    
+    .popular-artists h1, .popular-playlist h1 {
+        font-size: 22px;
+        margin-left: 1rem;
+    }
+    
+    .popular-artists .bar2, .popular-playlist .bar2, .top-picks .bar3{
+        width: 147px;
+        height: 10px;
+        top: 0.8rem;
+    }
+
+    #main-boys2 .top-picks h1{
+        color: white;
+        margin: 2rem;
+        margin-left: 3rem;
+        font-size: 32px;
+        font-family: Poppins;
+    }
+    
+    .top-picks {
+        display: flex;
+    }
+    
+    .top-picks .bar3 {
+        position: relative;
+        top: 3.2rem;
+    }
+    
+    .popular-artists .actual-artists, .popular-playlist .actual-playlists {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .actual-artists .artist img {
+        width: 80px;
+        height: 80px; 
+    }
+
+    #kendrick {
+        max-width: 80px;
+    }
+    
+    .artist h1, .playlist h1 {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .popular-playlist .title-playlist {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .actual-playlists .playlist img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .top-tracks {
+        width: 190px;
+        height: 650px;
+        margin-top: 4rem;
+        padding: 1rem;
+    }
+    
+    .top-tracks h1{
+        font-size: 20px;
+    }
+    
+    .songs {
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .songDetails {
+        display: flex;
+        align-items: center;
+    }
+    
+    .info-and-duration {
+        display: block;
+    }
+    
+    .songDetails h2 {
+        font-size: 12px;
+        margin-left: 0.5rem;
+        margin-top: 0rem;
+        cursor: pointer;
+        min-width: 100px;
+    }
+    
+    .songDetails h3 {
+        color: gray;
+        font-size: 10px;
+        position: relative;
+        bottom: 1rem;
+    }
+    
+    .songDetails h4 {
+        font-size: 8px;
+        margin-left: 0.5rem;
+        color: #7D7DE8;
+        cursor: pointer;
+    }
+    
+    .songDetails img {
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 0.8rem;
+    }
+    /* Mepet deadline kak jad icuma di wrap aja hehe*/
+    .row-1 {
+        flex-wrap: wrap; 
+    }
+}
+
+@media (max-width: 425px) {
+    html {
+        overflow-x: hidden;
+    }
+    .aoty {
+        width: 260px;
+        height: 100px;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .aoty .texts {
+        margin-left: 1rem;
+    }
+    
+    .aoty .texts h1{
+        font-size: 14px;
+        margin-top: 1rem;
+    }
+    
+    .aoty .bar {
+        width: 150px;
+        height: 6px;
+    }
+    
+    .aoty .texts h4 {
+        font-size: 12px;
+        color: white;
+        margin-top: 0.8rem;
+    }
+    
+    .aoty .texts h5 {
+        font-size: 10px;
+    }
+    
+    .aoty .iu-sunbae img{
+        width: 100px;;
+        height: 120px;
+        position: relative;
+        bottom: 0.5rem;
+        left: -27rem;
+    }
+
+    .popular-artists, .popular-playlist{
+        margin-top: 2rem;
+    }
+    
+    .popular-artists h1, .popular-playlist h1 {
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+    
+    .popular-artists .bar2, .popular-playlist .bar2, .top-picks .bar3{
+        width: 80px;
+        height: 6px;
+        top: 0.4rem;
+    }
+    
+    .popular-artists .actual-artists, .popular-playlist .actual-playlists {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .actual-artists {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .actual-artists .artist img {
+        width: 45px;
+        height: 45px; 
+    }
+
+    #kendrick {
+        max-width: 60px;
+    }
+    
+    .artist h1, .playlist h1 {
+        font-size: 7px;
+        text-align: center;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    
+    .popular-playlist .title-playlist {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .actual-playlists .playlist img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .top-tracks {
+        width: 120px;
+        height: 420px;
+        border-radius: 10px;
+    }
+
+    .top-tracks h1{
+        font-size: 12px;
+    }
+
+    .right-side {
+        margin-right: 1rem;
+    }
+        
+    #main-boys2 .top-picks h1{
+        color: white;
+        margin-left: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+        font-size: 14px;
+        font-family: Poppins;
+    }
+    
+    .top-picks .bar3 {
+        position: relative;
+        top: 1.4rem;
+    }
+    
+    .songs {
+        gap: 0.5rem;
+        margin-right: 1rem;
+    }
+    
+    .songDetails {
+        display: flex;
+        align-items: center;
+    }
+    
+    .info-and-duration {
+        display: block;
+    }
+    
+    .songDetails h2 {
+        font-size: 8px;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        min-width: 100px;
+    }
+    
+    .songDetails h3 {
+        color: gray;
+        font-size: 8px;
+        position: relative;
+        bottom: 1rem;
+    }
+    
+    .songDetails h4 {
+        font-size: 8px;
+        margin-left: 0.5rem;
+        color: #7D7DE8;
+        cursor: pointer;
+    }
+    
+    .songDetails img {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 0.8rem;
+    }
+
+    .containerSongs {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row-1 {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .song-Left1,
+    .song-Right1 {
+        width: 350px;
+        height: 160px;
+        border-radius: 1rem;
+        background-color: white;
+    }
+
+    .image{
+        width: 350px;
+        height: 100px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .image img{
+        width: 350px;
+        height: 100px;
+        object-fit: cover;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .image h1 {
+        font-size: 10px;
+        top: 5rem;
+    }
+
+    .row-1 .texts {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .image h1 {
+        font-size: 14px;
+        position: absolute;
+        bottom: 0.5rem;
+        left: 0.5rem;
+        color: white;
+    }
+
+    .texts p {
+        font-size: 10px;
+    }
+
+    .texts {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .play, .details {
+        width: 50px;
+        height: 25px;
+        padding-bottom: 20px;
+        padding-right: 8px;
+        font-size: 10px;
+        background-color: #7D7DE8;
+        color: white;
+        font-family: Poppins;
+        border-radius: 10px;
+        cursor: pointer;
+        position: relative;
+        bottom: 6.3rem;
+        left: 75%;
+        transform: translateX(-50%);
+        opacity: 0; 
+        transition: opacity 0.3s ease; 
+    }
+    
+    .song-Left1:hover .play, .song-Right1:hover .play, .song-Left1:hover .details, .song-Right1:hover .details {
+        opacity: 1; 
+    }
 }
