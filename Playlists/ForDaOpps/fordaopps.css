@@ -212,7 +212,7 @@ body {
 }
 
 .container3 {
-    background: linear-gradient(to right, #0C102D, #737183);
+    background: linear-gradient(to right, #70D6DA, #B7AAA0);
 }
 
 .container4 {
@@ -243,4 +243,363 @@ body {
     height: 90px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+@media (max-width: 768px){
+    html {
+        overflow-x: hidden;
+    }
+    .header {
+        height: 360px;
+        width: 770px;
+    }
+
+    .nav img {
+        position: relative;
+        right: 2rem;
+        cursor: pointer;
+    }
+
+    .nav input {
+        width: 220px;
+        font-size: 14px;
+        padding: 5px;
+        padding-left: 15px;
+        border-radius: 20px;
+        border: solid 1px white;
+        position: relative;
+        left: 5rem;
+        font-family: Poppins;
+    }
+    
+    .logo {
+        font-size: 14px;
+        cursor: pointer;
+        margin-right: 10rem;
+    }
+
+    #nav-bar .arrow {
+        width: 21.88px;
+        margin-right: 10px;
+    }
+
+    .account-pic {
+        width: 60px;
+        height: 60px; 
+    }
+
+    .playlist-infos {
+        margin-top: 4rem;
+        margin-left: 3rem;
+    }
+
+    .left img {
+        width: 177px;
+        height: 181px;
+    }
+    
+    .right {
+        padding: 0.4rem;
+    }
+    
+    .right h1 {
+        font-size: 32px;
+    }
+    
+    .right h4 {
+        font-size: 18px;
+        margin: 0.5rem 0;
+    }
+    
+    .right h5 {
+        font-size: 14px;
+        margin: 0.5rem 0;
+        color: grey;
+    }
+    
+    .right .bar {
+        width: 300px;
+        height: 7px;
+    }
+    
+    .right button {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .right img{
+        width: 20px;
+        height: 20px;
+    }
+
+    #songs-in-playlist {
+        font-size: 12px;
+    }
+    
+    .container1, .container2, .container3, .container4, .container5 {
+        width: 700px;
+        height: 114px;
+        margin-left: 2.5rem;
+    }
+    
+    .song {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    .title-and-artist span {
+        color:#7D7DE8;
+    }
+    
+    .song img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 425px){
+    html {
+        overflow-x: hidden;
+    }
+    .header {
+        height: 300px;
+        width: 425px;
+    }
+
+    .nav img {
+        position: relative;
+        right: 15rem;
+        cursor: pointer;
+    }
+
+    .nav .icon {
+        position: relative;
+        right: 11.8rem;
+    }
+
+    .nav input {
+        width: 163px;
+        font-size: 12px;
+        left: -7rem;
+        padding-left: 8px;
+    }
+    
+    .logo {
+        font-size: 14px;
+        cursor: pointer;
+        margin-right: 4rem;
+    }
+
+    .logo h1 {
+        font-size: 12px;
+        min-width: 200px;
+    }
+
+    #nav-bar .arrow {
+        width: 15.88px;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    .account-pic {
+        width: 50px;
+        height: 50px;
+    }
+
+    .playlist-infos {
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+
+    .left img {
+        width: 140px;
+        height: 145px;
+    }
+    
+    .right {
+        padding: 0.4rem;
+    }
+    
+    .right h1 {
+        font-size: 24px;
+    }
+    
+    .right h4 {
+        font-size: 14px;
+        margin: 0.5rem 0;
+    }
+    
+    .right h5 {
+        font-size: 12px;
+        margin: 0.5rem 0;
+        color: grey;
+    }
+    
+    .right .bar {
+        width: 230px;
+        height: 5px;
+    }
+    
+    .right button {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .right img{
+        width: 20px;
+        height: 20px;
+    }
+
+    #songs-in-playlist {
+        font-size: 7px;
+    }
+    
+    .container1, .container2, .container3, .container4, .container5 {
+        width: 380px;
+        height: 80px;
+        margin-left: 1.5rem;
+    }
+    
+    .song {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    .title-and-artist span {
+        color:#7D7DE8;
+    }
+    
+    .song img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 375px){
+    html {
+        overflow-x: hidden;
+    }   
+
+    .nav img {
+        position: relative;
+        right: 18rem;
+        cursor: pointer;
+    }
+
+    .nav .icon {
+        position: relative;
+        right: 14rem;
+        width: 20px;
+        height: 20px;
+        bottom: 8px;
+    }
+
+    .nav input {
+        width: 163px;
+        font-size: 12px;
+        left: -9.4rem;
+        padding-left: 8px;
+    }
+    
+    .logo {
+        font-size: 14px;
+        cursor: pointer;
+        margin-right: 4rem;
+    }
+
+    .logo h1 {
+        font-size: 12px;
+        min-width: 200px;
+    }
+
+    #nav-bar .arrow {
+        width: 15.88px;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    .left img {
+        width: 120px;
+        height: 125px;
+    }
+    
+    .right {
+        padding: 0rem;
+    }
+    
+    .right h1 {
+        font-size: 24px;
+    }
+    
+    .right h4 {
+        font-size: 12px;
+        margin: 0.3rem 0;
+    }
+    
+    .right h5 {
+        font-size: 10px;
+        margin: 0.5rem 0;
+        color: grey;
+    }
+    
+    .right .bar {
+        width: 198px;
+        height: 5px;
+    }
+
+    .right .btn {
+        margin: 0.4rem 0;
+    }
+    
+    .right button {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .right img{
+        width: 15px;
+        height: 15px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+    }
+
+    #songs-in-playlist {
+        font-size: 7px;
+    }
+    
+    .container1, .container2, .container3, .container4, .container5 {
+        width: 350px;
+        height: 60px;
+        margin-left: 1rem;
+    }
+    
+    .song {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .song .title-and-artist h2 {
+        font-size: 7px;
+    }
+    
+    .title-and-artist span {
+        color:#7D7DE8;
+    }
+    
+    .song img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
 }
