@@ -381,6 +381,19 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     text-align: justify;
 }
 
+footer {
+    height: 26vh;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: poppins;
+}
+
 @media (max-width: 768px){
     body {
         height: 100%;
@@ -538,6 +551,12 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     .song-Left1:hover .play, .song-Right1:hover .play, .song-Left1:hover .details, .song-Right1:hover .details {
         opacity: 1; 
     }
+    footer {
+        padding-top: 3rem;
+    }
+    footer p {
+        font-size: 13px;
+    }
 }
 @media (max-width: 375px) {
     html {
@@ -671,6 +690,9 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     
     .song-Left1:hover .play, .song-Right1:hover .play, .song-Left1:hover .details, .song-Right1:hover .details {
         opacity: 1; 
+    }
+    footer p {
+        font-size: 11px;
     }
 }
 @media (max-width: 320px) {
@@ -806,5 +828,11 @@ learned from: https://www.youtube.com/watch?v=ldwlOzRvYOU&t=1231s */
     
     .song-Left1:hover .play, .song-Right1:hover .play, .song-Left1:hover .details, .song-Right1:hover .details {
         opacity: 1; 
+    }
+    footer {
+        padding-top: 2rem;
+    }
+    footer p {
+        font-size: 10px;
     }
 }
