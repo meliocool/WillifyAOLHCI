@@ -180,4 +180,24 @@ body {
     color: #7D7DE8;
 }
 
+@media (max-width: 1024px){
+    #age-box input {
+        width: 120%;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px){
+    .left-side {
+        display: none;
+    }
+}
+
+@media (max-width: 425px){
+    #age-box {
+        margin-top: 10px;
+        margin-right: 2px;
+    }
+}
 
